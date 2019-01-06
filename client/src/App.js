@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AppNavbar from './copmonents/AppNavbar';
+import ShoppingList from './copmonents/ShoppingList';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <AppNavbar/>
+        <ShoppingList/>
       </div>
     );
   }
